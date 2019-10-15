@@ -1,0 +1,120 @@
+body {
+    margin: 0px;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.left {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 90px;
+    margin-left: 15px;
+    font-size: .9rem;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+   padding-right: 30px;
+    font-size: .9rem;
+}
+
+.logo img{
+    width:  700px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.searchbuttons {
+   margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 310px;
+    
+}
+
+.searchbuttons button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: rgb(245,245,245);
+    color: grey;
+}
+
+.searchbar input{
+    width: 600px;
+    height: 40px;
+    border-radius: 50px;
+    border: none; /* <-- This thing here */
+    border:solid 1px #ccc;
+    
+}
+
+.searchbar input:focus{
+
+    outline: none;
+
+}
+.searchbar input[type=text]{
+    font-size: 1em;
+    font-family: 'Font Awesome\ 5 Free', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #585858;
+    box-shadow: 2px 3px 20px 1px rgba(0, 0, 0, 0.1);
+    border: 0px solid transparent;
+    transition: 0.3s;
+}
+
+.searchbar input {
+    padding-left: 0.75em;
+}
+
+.squares i{
+    font-size: 20px;
+    color: grey;
+}
+
+.user i {
+    font-size: 30px;
+    color: red;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(242,242,242);
+    position: fixed; bottom: 0;
+    width: 100vw;
+}
+
+.leftf {
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    width:300px ;
+    color: rgb(110, 110, 110);
+}
+
+.rightf {
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    color: rgb(110, 110, 110);
+}
+
+.button:focus{
+    border: none;
+    outline: none;
+}
+
